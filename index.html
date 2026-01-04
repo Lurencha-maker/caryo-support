@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caryo - 技术支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #f5f5f7 0%, #e8e8ed 100%); color: #1d1d1f; line-height: 1.6; min-height: 100vh; }
+        .container { max-width: 640px; margin: 0 auto; padding: 48px 20px; }
+        .header { text-align: center; margin-bottom: 48px; }
+        .logo { width: 80px; height: 80px; background: linear-gradient(135deg, #34c759 0%, #30d158 100%); border-radius: 20px; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(52, 199, 89, 0.3); }
+        .logo span { font-size: 36px; }
+        h1 { font-size: 36px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { color: #86868b; font-size: 18px; }
+        .card { background: white; border-radius: 20px; padding: 28px; margin-bottom: 20px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+        .card h2 { font-size: 20px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+        .card h2 span { font-size: 24px; }
+        .card p { color: #515154; font-size: 15px; margin-bottom: 12px; }
+        .card p:last-child { margin-bottom: 0; }
+        .card ul { color: #515154; font-size: 15px; padding-left: 20px; }
+        .card li { margin-bottom: 8px; }
+        .faq-item { border-bottom: 1px solid #f0f0f0; padding-bottom: 16px; margin-bottom: 16px; }
+        .faq-item:last-child { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+        .faq-item strong { color: #1d1d1f; display: block; margin-bottom: 6px; }
+        .contact { background: linear-gradient(135deg, #34c759 0%, #30d158 100%); color: white; text-align: center; }
+        .contact h2 { color: white; justify-content: center; }
+        .contact p { color: rgba(255,255,255,0.9); }
+        .contact a { color: white; font-size: 20px; font-weight: 600; text-decoration: none; display: inline-block; margin-top: 8px; padding: 12px 32px; background: rgba(255,255,255,0.2); border-radius: 12px; transition: background 0.2s; }
+        .contact a:hover { background: rgba(255,255,255,0.3); }
+        .footer { text-align: center; margin-top: 48px; color: #86868b; font-size: 13px; }
+        .footer a { color: #0066cc; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><span>🚗</span></div>
+            <h1>Caryo</h1>
+            <p class="subtitle">你的爱车管家</p>
+        </div>
+        
+        <div class="card">
+            <h2><span>📱</span> 功能介绍</h2>
+            <p>Caryo 是一款简洁实用的汽车管理工具，帮你轻松记录加油和保养，掌握爱车的每一笔开销。</p>
+            <ul>
+                <li><strong>油耗计算</strong> - 自动计算真实油耗，趋势一目了然</li>
+                <li><strong>保养提醒</strong> - 按里程/时间双维度提醒，再也不怕忘保养</li>
+                <li><strong>费用统计</strong> - 月度年度统计，养车花费心中有数</li>
+                <li><strong>多车管理</strong> - 支持多辆车，家庭用车轻松管理</li>
+                <li><strong>数据同步</strong> - iCloud 自动备份，换机无忧</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2><span>❓</span> 常见问题</h2>
+            
+            <div class="faq-item">
+                <strong>油耗是怎么计算的？</strong>
+                <p>记录两次「加满」后，系统会根据两次加满之间的行驶里程和加油量自动计算油耗。建议每次加油都加满，这样油耗数据更准确。</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>我习惯不加满，能计算油耗吗？</strong>
+                <p>可以。系统会累计多次未加满的油量，直到下一次加满时一起计算。但建议偶尔加满一次，以获得更准确的数据。</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>数据会丢失吗？</strong>
+                <p>开启 iCloud 同步后，数据会自动备份到云端。即使更换设备，登录同一 Apple ID 即可恢复所有数据。</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>保养提醒是怎么工作的？</strong>
+                <p>你可以为每个保养项目设置里程周期或时间周期，系统会根据当前里程和日期自动计算状态，并在临近到期时发送通知提醒。</p>
+            </div>
+            
+            <div class="faq-item">
+                <strong>如何导出数据？</strong>
+                <p>在「我的」页面点击「数据导出」，可以将加油和保养记录导出为 CSV 或 PDF 格式，方便备份或分享。</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2><span>🔒</span> 隐私说明</h2>
+            <p>Caryo 非常重视您的隐私。所有数据仅存储在您的设备和 iCloud 账户中，我们不会收集、上传或分享您的任何个人信息。</p>
+        </div>
+        
+        <div class="card contact">
+            <h2><span>📧</span> 联系我们</h2>
+            <p>如有问题、建议或反馈，欢迎随时联系</p>
+            <a href="mailto:lurencha_developer@163.com">lurencha_developer@163.com</a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Caryo. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html">隐私政策</a> · <a href="terms.html">用户协议</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
